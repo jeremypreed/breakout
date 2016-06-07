@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Arcade Classic";
+  src: url("../res/arcadeclassic.ttf");
+}
+
+body {
+	background-color: #666;
+	font-family: verdana;
+	padding: 0;
+	margin: 10px 0 0 2px;
+}
+canvas {
+	background-color: #000;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: solid 4px #fff;
+	-webkit-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+}
+#dev {
+	display: none;
+}
+span {
+	color: #fff;
+	background-color: #333;
+	border: solid 4px #fff;
+	padding: 4px;
+	margin: 0;
+}
+span:hover {
+	color: #fff;
+	background-color: #111;
+	border: solid 4px #999;
+}
